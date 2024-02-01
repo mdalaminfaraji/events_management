@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'recent_events',
     'event_items',
     'rest_framework',
+    'ourServices'
 ]
 # REST_FRAMEWORK = {
 #     # Use Django's standard `django.contrib.auth` permissions,

@@ -25,4 +25,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('recent_events.urls')),
     path('api/eventItem/', include('event_items.urls')),
+    path('api/services/', include('ourServices.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
