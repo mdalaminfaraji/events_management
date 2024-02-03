@@ -119,7 +119,14 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
-
+CORS_ALLOW_METHODS = [
+    'GET',
+    'POST',
+    'PUT',
+    'DELETE',
+    'PATCH',
+    'OPTIONS'
+]
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
