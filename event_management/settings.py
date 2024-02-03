@@ -118,7 +118,7 @@ CORS_ALLOWED_ORIGINS = [
     'https://events-management-nsnv.onrender.com'
 ]
 
-CORS_ALLOW_ALL_ORIGINS = False
+CORS_ALLOW_ALL_ORIGINS = True
 
 
 # Internationalization
