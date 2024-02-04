@@ -117,7 +117,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173 ", # or the address where your React app is running
-    'https://events-management-nsnv.onrender.com'
+    'https://events-management-nsnv.onrender.com',
+    "https://65be959592a933c9eab4b230--frabjous-trifle-43f3e4.netlify.app",
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
