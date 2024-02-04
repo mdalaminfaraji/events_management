@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'recent_events',
     'event_items',
     'rest_framework',
-    'ourServices'
+    'ourServices',
+    'eventItems',
 ]
 # REST_FRAMEWORK = {
 #     # Use Django's standard `django.contrib.auth` permissions,
@@ -53,14 +54,15 @@ INSTALLED_APPS = [
 # }
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.clickjacking.XFrameOptionsMiddleware',  
+  
 ]
 
 ROOT_URLCONF = 'event_management.urls'
